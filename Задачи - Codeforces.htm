@@ -1,0 +1,897 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html lang="ru">
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta name="X-Csrf-Token" content="b1a922cec9ddf0936297d5d4f3821044"/>
+    <meta id="viewport" name="viewport" content="width=device-width, initial-scale=0.01"/>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/jquery-1.8.3.js"></script>
+    <script type="application/javascript">
+        window.standaloneContest = false;
+        function adjustViewport() {
+            var screenWidthPx = Math.min($(window).width(), window.screen.width);
+            var siteWidthPx = 1100; // min width of site
+            var ratio = Math.min(screenWidthPx / siteWidthPx, 1.0);
+            var viewport = "width=device-width, initial-scale=" + ratio;
+            $('#viewport').attr('content', viewport);
+            var style = $('<style>html * { max-height: 1000000px; }</style>');
+            $('html > head').append(style);
+        }
+
+        if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent) ) {
+            adjustViewport();
+        }
+    </script>
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="expires" content="-1">
+    <meta http-equiv="profileName" content="g2">
+    <meta name="google-site-verification" content="OTd2dN5x4nS4OPknPI9JFg36fKxjqY0i1PSfFPv_J90"/>
+    <meta property="fb:admins" content="100001352546622" />
+    <meta property="og:image" content="//sta.codeforces.com/s/83560/images/codeforces-telegram-square.png" />
+    <link rel="image_src" href="//sta.codeforces.com/s/83560/images/codeforces-telegram-square.png" />
+    <meta property="og:title" content="Задачи - Codeforces"/>
+    <meta property="og:description" content=""/>
+    
+    <meta property="og:site_name" content="Codeforces"/>
+    
+    
+    
+    
+    
+    
+    <meta name="utc_offset" content="+03:00"/>
+    <meta name="verify-reformal" content="f56f99fd7e087fb6ccb48ef2" />
+    <title>Задачи - Codeforces</title>
+        <meta name="description" content="Codeforces. Соревнования и олимпиады по информатике и программированию, сообщество программистов" />
+        <meta name="keywords" content="программирование информатика контест олимпиада алгоритмы c++ java графы vkcup" />
+    <meta name="robots" content="index, follow" />
+
+    <link rel="stylesheet" href="//sta.codeforces.com/s/83560/css/font-awesome.min.css" type="text/css" charset="utf-8" />
+
+        <link href='//fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+        <link href='//fonts.googleapis.com/css?family=Cuprum&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+
+
+    <link rel="shortcut icon" type="image/png" href="//sta.codeforces.com/s/83560/favicon.png">
+
+    <!--CombineResourcesFilter-->
+    <link rel="stylesheet" href="//sta.codeforces.com/s/83560/css/prettify.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/83560/css/clear.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/83560/css/style.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/83560/css/ttypography.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/83560/css/problem-statement.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/83560/css/second-level-menu.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/83560/css/roundbox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/83560/css/datatable.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/83560/css/table-form.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/83560/css/topic.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/83560/css/jquery.jgrowl.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/83560/css/facebox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/83560/css/jquery.wysiwyg.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/83560/css/jquery.autocomplete.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/83560/css/codeforces.datepick.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/83560/css/colorbox.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/83560/css/jquery.drafts.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="//sta.codeforces.com/s/83560/css/community.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="//sta.codeforces.com/s/83560/css/groups.css" type="text/css" charset="utf-8" />
+        <link rel="stylesheet" href="//sta.codeforces.com/s/83560/css/sidebar-menu.css" type="text/css" charset="utf-8" />
+
+    <!-- MathJax -->
+    <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+      tex2jax: {inlineMath: [['$$$','$$$']], displayMath: [['$$$$$$','$$$$$$']]}
+    });
+    </script>
+    <script type="text/javascript" async
+            src="https://assets.codeforces.com/mathjax/MathJax.js?config=TeX-AMS_HTML-full"
+    >
+    </script>
+    <!-- /MathJax -->
+
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/prettify/prettify.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/pushstream.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/jquery.easing.min.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/jquery.lavalamp.min.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/jquery.jgrowl.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/jquery.swipe.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/facebox.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/jquery.wysiwyg.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/controls/wysiwyg.colorpicker.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/controls/wysiwyg.table.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/controls/wysiwyg.image.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/controls/wysiwyg.link.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/jquery.autocomplete.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/ua-parser.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/jquery.datepick.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/jquery.ie6blocker.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/jquery.colorbox-min.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/jquery.ba-bbq.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/jquery.drafts.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/clipboard.min.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/autosize.min.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/sjcl.js"></script>
+    <script type="text/javascript" src="/scripts/bdcb456fabbc054756daa079b9672a46/ru/codeforces-options.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/codeforces.js?v=20160131"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/EventCatcher.js?v=20160131"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/preparedVerdictFormats-ru.js"></script>
+    <!--/CombineResourcesFilter-->
+
+    <link rel="stylesheet" href="//sta.codeforces.com/s/83560/markitup/skins/markitup/style.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="//sta.codeforces.com/s/83560/markitup/sets/markdown/style.css" type="text/css" charset="utf-8" />
+
+
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/markitup/jquery.markitup.js"></script>
+    <script type="text/javascript" src="//sta.codeforces.com/s/83560/markitup/sets/markdown/set.js"></script>
+
+    <!--[if IE]>
+    <style>
+        #sidebar {
+            padding-left: 1em;
+            margin: 1em 1em 1em 0;
+        }
+    </style>
+    <![endif]-->
+
+        <script type="text/javascript" src="//sta.codeforces.com/s/83560/js/jquery.datepick-ru.js"></script>
+            <script src="//vk.com/js/api/openapi.js" type="text/javascript"></script>
+
+
+</head>
+<body><span style='display:none;' class='csrf-token' data-csrf='b1a922cec9ddf0936297d5d4f3821044'>&nbsp;</span>
+<div class="button-up" style="display: none; opacity: 0.7; width: 50px; height:100%; position: fixed; left: 0; top: 0; cursor: pointer; text-align: center; line-height: 35px; color: #d3dbe4; font-weight: bold; font-size: 3.0rem;"><i class="icon-circle-arrow-up"></i></div>
+<div class="verdictPrototypeDiv" style="display: none;"></div>
+
+<!-- Codeforces JavaScripts. -->
+<script type="text/javascript">
+    String.prototype.hashCode = function() {
+        var hash = 0, i, chr;
+        if (this.length === 0) return hash;
+        for (i = 0; i < this.length; i++) {
+            chr   = this.charCodeAt(i);
+            hash  = ((hash << 5) - hash) + chr;
+            hash |= 0; // Convert to 32bit integer
+        }
+        return hash;
+    };
+
+    var queryMobile = Codeforces.queryString.mobile;
+    if (queryMobile === "true" || queryMobile === "false") {
+        Codeforces.putToStorage("useMobile", queryMobile == "true");
+    } else {
+        var useMobile = Codeforces.getFromStorage("useMobile");
+        if (useMobile === true || useMobile === false) {
+            if (useMobile != false) {
+                Codeforces.redirect(Codeforces.updateUrlParameter(document.location.href, "mobile", useMobile));
+            }
+        }
+    }
+</script>
+<script type="text/javascript">
+    if (window.parent.frames.length > 0) {
+        window.stop();
+    }
+</script>
+
+<script type="text/javascript">
+    VK.init({apiId: 1961905});
+</script>
+
+<script type="text/javascript">
+    window.fbAsyncInit = function() {
+        FB.init({
+            appId      : '554666954583323',
+            xfbml      : true,
+            version    : 'v2.8'
+        });
+        FB.AppEvents.logPageView();
+    };
+
+    (function(d, s, id){
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {return;}
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/en_US/sdk.js";
+        fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
+
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+    (function () {
+        jQuery.expr[':'].containsCI = function(elem, index, match) {
+            return !match || !match.length || match.length < 4 || !match[3] || (
+                    elem.textContent || elem.innerText || jQuery(elem).text() || ''
+            ).toLowerCase().indexOf(match[3].toLowerCase()) >= 0;
+        }
+    }(jQuery));
+
+    $.ajaxPrefilter(function(options, originalOptions, xhr) {
+        var csrf = Codeforces.getCsrfToken();
+
+        if (csrf) {
+            var data = originalOptions.data;
+            if (originalOptions.data !== undefined) {
+                if (Object.prototype.toString.call(originalOptions.data) === '[object String]') {
+                    data = $.deparam(originalOptions.data);
+                }
+            } else {
+                data = {};
+            }
+            options.data = $.param($.extend(data, { csrf_token: csrf }));
+        }
+    });
+
+    window.getCodeforcesServerTime = function(callback) {
+        $.post("/data/time", {}, callback, "json");
+    }
+
+    window.updateTypography = function () {
+        $("div.ttypography code").addClass("tt");
+        $("div.ttypography pre>code").addClass("prettyprint").removeClass("tt");
+        $("div.ttypography table").addClass("bordertable");
+        prettyPrint();
+    }
+
+    $.ajaxSetup({ scriptCharset: "utf-8" ,contentType: "application/x-www-form-urlencoded; charset=UTF-8", headers: {
+        'X-Csrf-Token': Codeforces.getCsrfToken()
+    }});
+
+    window.updateTypography();
+
+    Codeforces.signForms();
+
+    setTimeout(function() {
+        $(".second-level-menu-list").lavaLamp({
+            fx: "backout",
+            speed: 700
+        });
+    }, 100);
+
+
+    Codeforces.countdown();
+    $("a[rel='photobox']").colorbox();
+
+
+    function showAnnouncements(json) {
+        //info("j=" + JSON.stringify(json));
+
+        if (json.t != "a") {
+            return;
+        }
+        // console.log("Got announcement from channel");
+        setTimeout(function() {
+            Codeforces.showAnnouncements(json.d, "ru");
+        }, Math.random() * 500);
+    }
+
+    function showEventCatcherUserMessage(json) {
+        if (json.t == "s") {
+            var points = json.d[5];
+            var passedTestCount = json.d[7];
+            var judgedTestCount = json.d[8];
+            var verdict = preparedVerdictFormats[json.d[12]];
+            var verdictPrototypeDiv = $(".verdictPrototypeDiv");
+            verdictPrototypeDiv.html(verdict);
+            if (judgedTestCount != null && judgedTestCount != undefined) {
+                verdictPrototypeDiv.find(".verdict-format-judged").text(judgedTestCount);
+            }
+            if (passedTestCount != null && passedTestCount != undefined) {
+                verdictPrototypeDiv.find(".verdict-format-passed").text(passedTestCount);
+            }
+            if (points != null && points != undefined) {
+                verdictPrototypeDiv.find(".verdict-format-points").text(points);
+            }
+            Codeforces.showMessage(verdictPrototypeDiv.text());
+        }
+    }
+
+    $(".clickable-title").each(function() {
+        var title = $(this).attr("data-title");
+        if (title) {
+            var tmp = document.createElement("DIV");
+            tmp.innerHTML = title;
+            $(this).attr("title", tmp.textContent || tmp.innerText || "");
+        }
+    });
+
+    $(".clickable-title").click(function() {
+        var title = $(this).attr("data-title");
+        if (title) {
+            Codeforces.alert(title);
+        } else {
+            Codeforces.alert($(this).attr("title"));
+        }
+    }).css("position", "relative").css("bottom", "3px");
+
+
+    Codeforces.reformatTimes();
+
+    //Codeforces.initializePubSub();
+    if (window.codeforcesOptions.subscribeServerUrl) {
+        window.eventCatcher = new EventCatcher(
+            window.codeforcesOptions.subscribeServerUrl,
+            [
+                Codeforces.getGlobalChannel(),
+                Codeforces.getUserChannel(),
+                Codeforces.getUserShowMessageChannel(),
+                Codeforces.getContestChannel(),
+                Codeforces.getParticipantChannel(),
+                Codeforces.getTalkChannel()
+            ]
+        );
+
+        if (Codeforces.getParticipantChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getParticipantChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getContestChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getContestChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getGlobalChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getGlobalChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getUserChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getUserChannel(), function(json) {
+                showAnnouncements(json);
+            });
+        }
+
+        if (Codeforces.getUserShowMessageChannel()) {
+            window.eventCatcher.subscribe(Codeforces.getUserShowMessageChannel(), function(json) {
+                showEventCatcherUserMessage(json);
+            });
+        }
+    }
+
+    Codeforces.setupContestTimes("/group/QmrArgR1Jp/data/contests");
+    Codeforces.setupSpoilers();
+    Codeforces.setupTutorials("/data/problemTutorial");
+        });
+    </script>
+
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-743380-5']);
+  _gaq.push(['_trackPageview']);
+
+  (function () {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = (document.location.protocol == 'https:' ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+
+
+<div id="body">
+<div style="width: 950px; margin: 0 auto;" class="compact-problemset">
+    <div id="header" style="position: relative;">
+        <div style="float:left;">
+                  <a href="/"><img src="//sta.codeforces.com/s/83560/images/codeforces-logo-with-telegram.png"/></a>
+        </div>
+        <div class="lang">
+            <div style="text-align: right;">
+                <a href="?locale=en"><img src="//sta.codeforces.com/s/83560/images/flags/24/gb.png" title="In English" alt="In English"/></a>
+                <a href="?locale=ru"><img src="//sta.codeforces.com/s/83560/images/flags/24/ru.png" title="По-русски" alt="По-русски"/></a>
+            </div>
+        </div>
+        <br style="clear: both;"/>
+    </div>
+
+    <div style="text-align: center; font-size: 1.8rem; margin-bottom: 0.5em;"
+         class="caption">y2019-1-1. Сортировки, куча, бинпоиск</div>
+    <div style="border-top: 1px solid #ccc; height: 1em;"></div>
+
+    <div class="problem-frames">
+        <div
+                    style="margin-bottom: 2em;"
+        >
+<style>
+        .input-output-copier {
+            font-size: 1.2rem;
+            float: right;
+            color: #888 !important;
+            cursor: pointer;
+            border: 1px solid rgb(185, 185, 185);
+            padding: 3px;
+            margin: 1px;
+            line-height: 1.1rem;
+            text-transform: none;
+        }
+
+        .input-output-copier:hover {
+            background-color: #def;
+        }
+
+        .test-explanation textarea {
+            width: 100%;
+            height: 1.5em;
+        }
+    </style>
+
+<div class="problemindexholder" problemindex="A">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">A. Простая сортировка</div><div class="time-limit"><div class="property-title">ограничение по времени на тест</div>2 секунды</div><div class="memory-limit"><div class="property-title">ограничение по памяти на тест</div>64 мегабайта</div><div class="input-file"><div class="property-title">ввод</div>стандартный ввод</div><div class="output-file"><div class="property-title">вывод</div>стандартный вывод</div></div><div><p>Дан массив целых чисел. Ваша задача — отсортировать его в порядке неубывания.</p></div><div class="input-specification"><div class="section-title">Входные данные</div><p>В первой строке входного файла содержится число <span class="tex-span"><i>N</i></span> (<span class="tex-span">1 ≤ <i>N</i> ≤ 100 000</span>) — количество элементов в массиве. Во второй строке находятся <span class="tex-span"><i>N</i></span> целых чисел, по модулю не превосходящих <span class="tex-span">10<sup class="upper-index">9</sup></span>.</p></div><div class="output-specification"><div class="section-title">Выходные данные</div><p>В выходной файл надо вывести этот же массив в порядке неубывания, между любыми двумя числами должен стоять ровно один пробел.</p></div><div class="sample-tests"><div class="section-title">Пример</div><div class="sample-test"><div class="input"><div class="title">Входные данные</div><pre>10<br />1 8 2 1 4 7 3 2 3 6<br /></pre></div><div class="output"><div class="title">Выходные данные</div><pre>1 1 2 2 3 3 4 6 7 8 </pre></div></div></div><div class="note"><div class="section-title">Примечание</div><p>Запрещается использовать стандартные сортировки.</p></div></div><p>  </p></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "стандартный ввод")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "стандартный вывод")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+        String.prototype.replaceAll = function (search, replace) {
+            return this.split(search).join(replace);
+        };
+
+        $(".sample-test .title").each(function() {
+            var preId = ("id" + Math.random()).replaceAll(".", "0");
+            var cpyId = ("id" + Math.random()).replaceAll(".", "0");
+
+            $(this).parent().find("pre").attr("id", preId);
+            var $copy = $("<div title='Скопировать' data-clipboard-target='#" + preId + "' id='" + cpyId + "' class='input-output-copier'>Скопировать</div>");
+            $(this).append($copy);
+
+            var clipboard = new Clipboard('#' + cpyId, {
+                text: function(trigger) {
+                    return Codeforces.filterClipboardText(document.querySelector('#' + preId).innerText);
+                }
+            });
+
+            var isInput = $(this).parent().hasClass("input");
+
+            clipboard.on('success', function(e) {
+                if (isInput) {
+                    Codeforces.showMessage("Входные данные были скопированы в буфер обмена");
+                } else {
+                    Codeforces.showMessage("Выходные данные были скопированы в буфер обмена");
+                }
+                e.clearSelection();
+            });
+        });
+
+        autosize($('.test-explanation textarea'));
+
+    });
+</script>        </div>
+        <div
+                    style="margin-bottom: 2em;"
+        >
+<div class="problemindexholder" problemindex="B">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">B. Сортировка подсчетом</div><div class="time-limit"><div class="property-title">ограничение по времени на тест</div>1 секунда</div><div class="memory-limit"><div class="property-title">ограничение по памяти на тест</div>64 мегабайта</div><div class="input-file"><div class="property-title">ввод</div>стандартный ввод</div><div class="output-file"><div class="property-title">вывод</div>стандартный вывод</div></div><div><p>Дан список из <span class="tex-span"><i>N</i></span> элементов, которые принимают целые значения от 0 до 100. Отсортируйте этот список в порядке неубывания элементов. Выведите полученный список.</p></div><div class="input-specification"><div class="section-title">Входные данные</div><p>На одной строке дан массив из <span class="tex-span"><i>N</i></span> элементов. <span class="tex-span">(1 ≤ <i>N</i> ≤ 2·10<sup class="upper-index">5</sup>)</span> — количество элементов в массиве. Гарантируется, что все элементы массива принимают целые значения от 0 до 100.</p></div><div class="output-specification"><div class="section-title">Выходные данные</div><p>Выведите отсортированный список элeментов</p></div><div class="sample-tests"><div class="section-title">Пример</div><div class="sample-test"><div class="input"><div class="title">Входные данные</div><pre>7 3 4 2 5<br /></pre></div><div class="output"><div class="title">Выходные данные</div><pre>2 3 4 5 7 </pre></div></div></div><div class="note"><div class="section-title">Примечание</div><p>Использовать встроенные функции сортировки нельзя.</p></div></div><p>  </p></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "стандартный ввод")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "стандартный вывод")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+
+    });
+</script>        </div>
+        <div
+                    style="margin-bottom: 2em;"
+        >
+<div class="problemindexholder" problemindex="C">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">C. Количество инверсий</div><div class="time-limit"><div class="property-title">ограничение по времени на тест</div>5 секунд</div><div class="memory-limit"><div class="property-title">ограничение по памяти на тест</div>256 мегабайт</div><div class="input-file"><div class="property-title">ввод</div>стандартный ввод</div><div class="output-file"><div class="property-title">вывод</div>стандартный вывод</div></div><div><p>Напишите программу, которая для заданного массива <img align="middle" class="tex-formula" src="/predownloaded/0f/66/0f66a3191762c540680834126449ce5549b6bfd4.png" style="max-width: 100.0%;max-height: 100.0%;" /> находит количество пар <span class="tex-span">(<i>i</i>, <i>j</i>)</span> таких, что <span class="tex-span"><i>i</i> &lt; <i>j</i></span> и <span class="tex-span"><i>a</i><sub class="lower-index"><i>i</i></sub> &gt; <i>a</i><sub class="lower-index"><i>j</i></sub></span>.</p></div><div class="input-specification"><div class="section-title">Входные данные</div><p>Первая строка входного файла содержит натуральное число <span class="tex-span"><i>n</i></span> (<span class="tex-span">1 ≤ <i>n</i> ≤ 500 000</span>) — количество элементов массива. Вторая строка содержит <span class="tex-span"><i>n</i></span> попарно различных элементов массива <span class="tex-span"><i>A</i></span> (<span class="tex-span">0 ≤ <i>a</i><sub class="lower-index"><i>i</i></sub> ≤ 10<sup class="upper-index">6</sup></span>).</p></div><div class="output-specification"><div class="section-title">Выходные данные</div><p>В выходной файл выведите одно число — ответ на задачу.</p></div><div class="sample-tests"><div class="section-title">Примеры</div><div class="sample-test"><div class="input"><div class="title">Входные данные</div><pre>4<br />1 2 4 5<br /></pre></div><div class="output"><div class="title">Выходные данные</div><pre>0<br /></pre></div><div class="input"><div class="title">Входные данные</div><pre>4<br />5 4 2 1<br /></pre></div><div class="output"><div class="title">Выходные данные</div><pre>6<br /></pre></div></div></div></div></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "стандартный ввод")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "стандартный вывод")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+
+    });
+</script>        </div>
+        <div
+                    style="margin-bottom: 2em;"
+        >
+<div class="problemindexholder" problemindex="D">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">D. Хипуй!</div><div class="time-limit"><div class="property-title">ограничение по времени на тест</div>3 секунды</div><div class="memory-limit"><div class="property-title">ограничение по памяти на тест</div>256 мегабайт</div><div class="input-file"><div class="property-title">ввод</div>стандартный ввод</div><div class="output-file"><div class="property-title">вывод</div>стандартный вывод</div></div><div><p>В этой задаче вам необходимо организовать структуру данных Heap для хранения целых чисел, над которой определены следующие операции:</p><ul> <li> <span class="tex-font-style-tt">Insert(X)</span> — добавить в Heap число <span class="tex-span"><i>X</i></span>; </li><li> <span class="tex-font-style-tt">Extract</span> — достать из Heap наибольшее число (удалив его при этом). </li></ul><p>Эту задачу нужно решить без использования встроенных структур данных для поиска максимального числа.</p></div><div class="input-specification"><div class="section-title">Входные данные</div><p>Во входном файле записано количество команд <span class="tex-span"><i>N</i></span> (<span class="tex-span">1 ≤ <i>N</i> ≤ 100 000</span>), потом последовательность из <span class="tex-span"><i>N</i></span> команд, каждая в своей строке. </p><p>Каждая команда имеет такой формат: &quot;<span class="tex-font-style-tt">0 &lt;число&gt;</span>&quot; или &quot;<span class="tex-font-style-tt">1</span>&quot;, что означает соответственно операции <span class="tex-font-style-tt">Insert(&lt;число&gt;)</span> и <span class="tex-font-style-tt">Extract</span>. Добавляемые числа находятся в интервале от <span class="tex-span">1</span> до <span class="tex-span">10<sup class="upper-index">7</sup></span> включительно.</p><p>Гарантируется, что при выполнении команды <span class="tex-font-style-tt">Extract</span> в структуре находится по крайней мере один элемент.</p></div><div class="output-specification"><div class="section-title">Выходные данные</div><p>В выходной файл для каждой команды извлечения необходимо вывести число, полученное при выполнении команды <span class="tex-font-style-tt">Extract</span>.</p></div><div class="sample-tests"><div class="section-title">Пример</div><div class="sample-test"><div class="input"><div class="title">Входные данные</div><pre>7<br />0 100<br />0 10<br />1<br />0 5<br />0 30<br />0 50<br />1<br /></pre></div><div class="output"><div class="title">Выходные данные</div><pre>100<br />50<br /></pre></div></div></div></div><p>  </p></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "стандартный ввод")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "стандартный вывод")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+
+    });
+</script>        </div>
+        <div
+                    style="margin-bottom: 2em;"
+        >
+<div class="problemindexholder" problemindex="E">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">E. Быстрый поиск в массиве</div><div class="time-limit"><div class="property-title">ограничение по времени на тест</div>1 секунда</div><div class="memory-limit"><div class="property-title">ограничение по памяти на тест</div>256 мегабайт</div><div class="input-file"><div class="property-title">ввод</div>стандартный ввод</div><div class="output-file"><div class="property-title">вывод</div>стандартный вывод</div></div><div><p>Дан массив из <span class="tex-span"><i>n</i></span> целых чисел. Все числа от <span class="tex-span"> - 10<sup class="upper-index">9</sup></span> до <span class="tex-span">10<sup class="upper-index">9</sup></span>.</p><p>Нужно уметь отвечать на запросы вида <span class="tex-font-style-tt">&quot;Cколько чисел имеют значения от <span class="tex-span"><i>l</i></span> до <span class="tex-span"><i>r</i></span>?&quot;</span>.</p></div><div class="input-specification"><div class="section-title">Входные данные</div><p>Число <span class="tex-span"><i>n</i></span> (<span class="tex-span">1 ≤ <i>n</i> ≤ 10<sup class="upper-index">5</sup></span>). Далее <span class="tex-span"><i>n</i></span> целых чисел.</p><p>Затем число запросов <span class="tex-span"><i>k</i></span> (<span class="tex-span">1 ≤ <i>k</i> ≤ 10<sup class="upper-index">5</sup></span>).</p><p>Далее <span class="tex-span"><i>k</i></span> пар чисел <span class="tex-span"><i>l</i>, <i>r</i></span> (<span class="tex-span"> - 10<sup class="upper-index">9</sup> ≤ <i>l</i> ≤ <i>r</i> ≤ 10<sup class="upper-index">9</sup></span>) — собственно запросы.</p></div><div class="output-specification"><div class="section-title">Выходные данные</div><p>Выведите <span class="tex-span"><i>k</i></span> чисел — ответы на запросы.</p></div><div class="sample-tests"><div class="section-title">Пример</div><div class="sample-test"><div class="input"><div class="title">Входные данные</div><pre>5<br />10 1 10 3 4<br />4<br />1 10<br />2 9<br />3 4<br />2 2<br /></pre></div><div class="output"><div class="title">Выходные данные</div><pre>5 2 2 0 </pre></div></div></div></div><p>  </p></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "стандартный ввод")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "стандартный вывод")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+
+    });
+</script>        </div>
+        <div
+                    style="margin-bottom: 2em;"
+        >
+<div class="problemindexholder" problemindex="F">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">F. Приближенный двоичный поиск</div><div class="time-limit"><div class="property-title">ограничение по времени на тест</div>2 секунды</div><div class="memory-limit"><div class="property-title">ограничение по памяти на тест</div>256 мегабайт</div><div class="input-file"><div class="property-title">ввод</div>стандартный ввод</div><div class="output-file"><div class="property-title">вывод</div>стандартный вывод</div></div><div><p>Даны два массива. Первый массив отсортирован по неубыванию, второй массив содержит запросы — целые числа. Для каждого запроса выведите число из первого массива наиболее близкое к числу в этом запросе. Если таких несколько, выведите меньшее из них.</p></div><div class="input-specification"><div class="section-title">Входные данные</div><p>В первой строке входных данных содержатся числа <span class="tex-span"><i>n</i></span> и <span class="tex-span"><i>k</i></span> (<span class="tex-span">0 &lt; <i>n</i>, <i>k</i> ≤ 10<sup class="upper-index">5</sup></span>). Во второй строке задаются <span class="tex-span"><i>n</i></span> чисел первого массива, отсортированного по неубыванию, а в третьей строке – <span class="tex-span"><i>k</i></span> чисел второго массива. Каждое число в обоих массивах по модулю не превосходит <span class="tex-span">2·10<sup class="upper-index">9</sup></span> .</p></div><div class="output-specification"><div class="section-title">Выходные данные</div><p>Для каждого из <span class="tex-span"><i>k</i></span> чисел выведите в отдельную строку число из первого массива, наиболее близкое к данному. Если таких несколько, выведите меньшее из них.</p></div><div class="sample-tests"><div class="section-title">Пример</div><div class="sample-test"><div class="input"><div class="title">Входные данные</div><pre>5 5<br />1 3 5 7 9<br />2 4 8 1 6<br /></pre></div><div class="output"><div class="title">Выходные данные</div><pre>1<br />3<br />7<br />1<br />5<br /></pre></div></div></div></div><p>  </p></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "стандартный ввод")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "стандартный вывод")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+
+    });
+</script>        </div>
+        <div
+                    style="margin-bottom: 2em;"
+        >
+<div class="problemindexholder" problemindex="G">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">G. Очень Легкая Задача</div><div class="time-limit"><div class="property-title">ограничение по времени на тест</div>2 секунды</div><div class="memory-limit"><div class="property-title">ограничение по памяти на тест</div>256 мегабайт</div><div class="input-file"><div class="property-title">ввод</div>стандартный ввод</div><div class="output-file"><div class="property-title">вывод</div>стандартный вывод</div></div><div><p>Сегодня утром жюри решило добавить в вариант олимпиады еще одну, Очень Легкую Задачу. Ответственный секретарь Оргкомитета напечатал ее условие в одном экземпляре, и теперь ему нужно до начала олимпиады успеть сделать еще <span class="tex-span"><i>n</i></span> копий. В его распоряжении имеются два ксерокса, один из которых копирует лист за <span class="tex-span"><i>x</i></span> секунд, а другой – за <span class="tex-span"><i>y</i></span>. (Разрешается использовать как один ксерокс, так и оба одновременно. Можно копировать не только с оригинала, но и с копии.) Помогите ему выяснить, какое минимальное время для этого потребуется.</p></div><div class="input-specification"><div class="section-title">Входные данные</div><p>На вход программы поступают три натуральных числа <span class="tex-span"><i>n</i></span>, <span class="tex-span"><i>x</i></span> и <span class="tex-span"><i>y</i></span>, разделенные пробелом (<span class="tex-span">1 ≤ <i>n</i> ≤ 2·10<sup class="upper-index">8</sup></span>, <span class="tex-span">1 ≤ <i>x</i>, <i>y</i> ≤ 10</span>).</p></div><div class="output-specification"><div class="section-title">Выходные данные</div><p>Выведите одно число – минимальное время в секундах, необходимое для получения <span class="tex-span"><i>n</i></span> копий.</p></div><div class="sample-tests"><div class="section-title">Примеры</div><div class="sample-test"><div class="input"><div class="title">Входные данные</div><pre>4 1 1<br /></pre></div><div class="output"><div class="title">Выходные данные</div><pre>3<br /></pre></div><div class="input"><div class="title">Входные данные</div><pre>5 1 2<br /></pre></div><div class="output"><div class="title">Выходные данные</div><pre>4<br /></pre></div></div></div></div><p>  </p></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "стандартный ввод")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "стандартный вывод")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+
+    });
+</script>        </div>
+        <div
+                    style="margin-bottom: 2em;"
+        >
+<div class="problemindexholder" problemindex="H">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">H. Дипломы</div><div class="time-limit"><div class="property-title">ограничение по времени на тест</div>1 секунда</div><div class="memory-limit"><div class="property-title">ограничение по памяти на тест</div>256 мегабайт</div><div class="input-file"><div class="property-title">ввод</div>стандартный ввод</div><div class="output-file"><div class="property-title">вывод</div>стандартный вывод</div></div><div><p>Когда Петя учился в школе, он часто участвовал в олимпиадах по информатике, математике и физике. Так как он был достаточно способным мальчиком и усердно учился, то на многих из этих олимпиад он получал дипломы. К окончанию школы у него накопилось $$$n$$$ дипломов, причём, как оказалось, все они имели одинаковые размеры: $$$w$$$ — в ширину и $$$h$$$ — в высоту.</p><p>Сейчас Петя учится в одном из лучших российских университетов и живёт в общежитии со своими одногруппниками. Он решил украсить свою комнату, повесив на одну из стен свои дипломы за школьные олимпиады. Так как к бетонной стене прикрепить дипломы достаточно трудно, то он решил купить специальную доску из пробкового дерева, чтобы прикрепить её к стене, а к ней — дипломы. Для того чтобы эта конструкция выглядела более красиво, Петя хочет, чтобы доска была квадратной и занимала как можно меньше места на стене. Каждый диплом должен быть размещён строго в прямоугольнике размером $$$w$$$ на $$$h$$$. Дипломы запрещается поворачивать на 90 градусов. Прямоугольники, соответствующие различным дипломам, не должны иметь общих внутренних точек.</p><p> </p><center> <img class="tex-graphics" src="/predownloaded/44/44/4444f342419c4bfaf47b09595141ec374b52f592.png" style="max-width: 100.0%;max-height: 100.0%;" /> </center><p>Требуется написать программу, которая вычислит минимальный размер стороны доски, которая потребуется Пете для размещения всех своих дипломов.</p></div><div class="input-specification"><div class="section-title">Входные данные</div><p>Входной файл содержит три целых числа: $$$w$$$, $$$h$$$, $$$n$$$ ($$$1 \leqslant w, h, n \leqslant 10^9$$$).</p></div><div class="output-specification"><div class="section-title">Выходные данные</div><p>В выходной файл необходимо вывести ответ на поставленную задачу.</p></div><div class="sample-tests"><div class="section-title">Пример</div><div class="sample-test"><div class="input"><div class="title">Входные данные</div><pre>2 3 10<br /></pre></div><div class="output"><div class="title">Выходные данные</div><pre>9<br /></pre></div></div></div></div><p>  </p></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "стандартный ввод")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "стандартный вывод")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+
+    });
+</script>        </div>
+        <div
+                    style="margin-bottom: 2em;"
+        >
+<div class="problemindexholder" problemindex="I">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">I. Квадратный корень и квадратный квадрат</div><div class="time-limit"><div class="property-title">ограничение по времени на тест</div>2 секунды</div><div class="memory-limit"><div class="property-title">ограничение по памяти на тест</div>256 мегабайт</div><div class="input-file"><div class="property-title">ввод</div>стандартный ввод</div><div class="output-file"><div class="property-title">вывод</div>стандартный вывод</div></div><div><p>Найдите такое число <span class="tex-span"><i>x</i></span>, что <img align="middle" class="tex-formula" src="/predownloaded/9d/50/9d502df18a401aeb71999231c579290836be2c69.png" style="max-width: 100.0%;max-height: 100.0%;" />, с точностью не менее 6 знаков после точки.</p></div><div class="input-specification"><div class="section-title">Входные данные</div><p>В единственной строке содержится вещественное число <span class="tex-span">1.0 ≤ <i>C</i> ≤ 10<sup class="upper-index">10</sup></span>.</p></div><div class="output-specification"><div class="section-title">Выходные данные</div><p>Выведите одно число — искомый <span class="tex-span"><i>x</i></span>.</p></div><div class="sample-tests"><div class="section-title">Примеры</div><div class="sample-test"><div class="input"><div class="title">Входные данные</div><pre>2.0000000000<br /></pre></div><div class="output"><div class="title">Выходные данные</div><pre>1.0<br /></pre></div><div class="input"><div class="title">Входные данные</div><pre>18.0000000000<br /></pre></div><div class="output"><div class="title">Выходные данные</div><pre>4.0<br /></pre></div></div></div></div><p>  </p></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "стандартный ввод")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "стандартный вывод")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+
+    });
+</script>        </div>
+        <div
+                    style="margin-bottom: 2em;"
+        >
+<div class="problemindexholder" problemindex="J">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">J. Поляна дров</div><div class="time-limit"><div class="property-title">ограничение по времени на тест</div>2 секунды</div><div class="memory-limit"><div class="property-title">ограничение по памяти на тест</div>256 мегабайт</div><div class="input-file"><div class="property-title">ввод</div>стандартный ввод</div><div class="output-file"><div class="property-title">вывод</div>стандартный вывод</div></div><div><p>Маленький мальчик Ферм<img align="middle" class="tex-formula" src="/predownloaded/ef/cf/efcfa8d40e16e68be0f2cefe2e8628ac916df7c5.png" style="max-width: 100.0%;max-height: 100.0%;" /> живет в деревне. Наступают холодные времена, поэтому бабушка попросила мальчика сходить в лес, чтобы собрать дров. В лесу около деревни, в которой живет Ферма, находится волшебная Поляна Дров, на которой всегда лежат дрова, и никогда не кончаются. Естественно, Ферма должен пойти именно туда.</p><p>Единственная проблема заключается в том, что идти до Поляны не очень близко, тем более что скорость передвижения по лесу намного меньше, чем скорость передвижения по полю, в котором находится деревня.</p><p><img align="middle" class="tex-formula" src="/predownloaded/c5/3e/c53e4eb148a424985f690d1fe61a293da4d0cc17.png" style="max-width: 100.0%;max-height: 100.0%;" /> Деревня находится в точке с координатами  <span class="tex-span">(0, 1)</span>.</p><p><img align="middle" class="tex-formula" src="/predownloaded/c5/3e/c53e4eb148a424985f690d1fe61a293da4d0cc17.png" style="max-width: 100.0%;max-height: 100.0%;" /> Поляна находится в точке с координатами  <span class="tex-span">(1, 0)</span>.</p><p><img align="middle" class="tex-formula" src="/predownloaded/c5/3e/c53e4eb148a424985f690d1fe61a293da4d0cc17.png" style="max-width: 100.0%;max-height: 100.0%;" /> Граница между лесом и полем — горизонтальная прямая <span class="tex-span"><i>y</i> = <i>a</i></span>, где <span class="tex-span"><i>a</i></span> — некоторое число (<span class="tex-span">0 ≤ <i>a</i> ≤ 1</span>).</p><p><img align="middle" class="tex-formula" src="/predownloaded/c5/3e/c53e4eb148a424985f690d1fe61a293da4d0cc17.png" style="max-width: 100.0%;max-height: 100.0%;" /> Скорость передвижения по полю составляет <span class="tex-span"><i>V</i><sub class="lower-index"><i>p</i></sub></span>, скорость передвижения по лесу — <span class="tex-span"><i>V</i><sub class="lower-index"><i>f</i></sub></span>. Вдоль границы можно двигаться как по лесу, так и по полю.</p><p>Найдите точку, в которой мальчик Ферма должен войти в лес, чтобы дойти до Поляны Дров как можно быстрее.</p></div><div class="input-specification"><div class="section-title">Входные данные</div><p>В первой строке входного файла содержатся два положительных целых числа — <span class="tex-span"><i>V</i><sub class="lower-index"><i>p</i></sub></span> и <span class="tex-span"><i>V</i><sub class="lower-index"><i>f</i></sub></span> (<span class="tex-span">1 ≤ <i>V</i><sub class="lower-index"><i>p</i></sub>, <i>V</i><sub class="lower-index"><i>f</i></sub> ≤ 10<sup class="upper-index">5</sup></span>). Во второй строке содержится единственное вещественное число — координата по оси <span class="tex-span"><i>Oy</i></span> границы между лесом и полем <span class="tex-span"><i>a</i></span>  (<span class="tex-span">0 ≤ <i>a</i> ≤ 1</span>) </p></div><div class="output-specification"><div class="section-title">Выходные данные</div><p>В единственной строке выходного файла выведите вещественное число с точностью не менее 4 знаков после запятой — координата по оси <span class="tex-span"><i>Ox</i></span> точки, в которой мальчик Ферма должен войти в лес.</p></div><div class="sample-tests"><div class="section-title">Пример</div><div class="sample-test"><div class="input"><div class="title">Входные данные</div><pre>5 3<br />0.4<br /></pre></div><div class="output"><div class="title">Выходные данные</div><pre>0.783310604</pre></div></div></div></div><p>  </p></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "стандартный ввод")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "стандартный вывод")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+
+    });
+</script>        </div>
+        <div
+                    style="margin-bottom: 1em;"
+        >
+<div class="problemindexholder" problemindex="K">
+        <div class="ttypography"><div class="problem-statement"><div class="header"><div class="title">K. K-best</div><div class="time-limit"><div class="property-title">ограничение по времени на тест</div>2 секунды</div><div class="memory-limit"><div class="property-title">ограничение по памяти на тест</div>256 мегабайт</div><div class="input-file"><div class="property-title">ввод</div>стандартный ввод</div><div class="output-file"><div class="property-title">вывод</div>стандартный вывод</div></div><div><p>У Демьяны есть $$$n$$$ драгоценностей. Каждая из драгоценностей имеет ценность $$$v_i$$$ и вес $$$w_i$$$. С тех пор, как её мужа Джонни уволили в связи с последним финансовым кризисом, Демьяна решила продать несколько драгоценностей. Для себя она решила оставить лишь $$$k$$$ лучших. Лучших в смысле максимизации достаточно специфического выражения: пусть она оставила для себя драгоценности номер $$$i_1, i_2, \dots, i_k$$$, тогда максимальной должна быть величина</p><p>$$$$$$\frac{\sum\limits_{j=1}^{k}v_{i_j}}{\sum\limits_{j=1}^{k}w_{i_j}}$$$$$$</p><p>Помогите Демьяне выбрать $$$k$$$ драгоценностей требуемым образом.</p></div><div class="input-specification"><div class="section-title">Входные данные</div><p>На первой строке $$$n$$$ и $$$k$$$ ($$$1 \le k \le n \le 100\,000$$$).</p><p>Следующие $$$n$$$ строк содержат пары целых чисел $$$v_i$$$, $$$w_i$$$ ($$$0 \le v_i \le 10^6, 1 \le w_i \le 10^6$$$, сумма всех $$$v_i$$$ не превосходит $$$10^7$$$, сумма всех $$$w_i$$$ также не превосходит $$$10^7$$$).</p></div><div class="output-specification"><div class="section-title">Выходные данные</div><p>Выведите $$$k$$$ различных чисел от $$$1$$$ до $$$n$$$ — номера драгоценностей. Драгоценности нумеруются в том порядке, в котором перечислены во входных данных. Если есть несколько оптимальных ответов, выведите любой.</p></div><div class="sample-tests"><div class="section-title">Примеры</div><div class="sample-test"><div class="input"><div class="title">Входные данные</div><pre>3 2<br />1 1<br />1 2<br />1 3<br /></pre></div><div class="output"><div class="title">Выходные данные</div><pre>1<br />2<br /></pre></div></div></div></div></div>
+</div>
+
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        function endsWith(string, suffix) {
+            return string.indexOf(suffix, string.length - suffix.length) !== -1;
+        }
+
+        var inputFileDiv = $("div.input-file");
+        var inputFile = inputFileDiv.text();
+        var outputFileDiv = $("div.output-file");
+        var outputFile = outputFileDiv.text();
+
+        if (!endsWith(inputFile, "стандартный ввод")
+                && !endsWith(inputFile, "standard input")) {
+            inputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        if (!endsWith(outputFile, "стандартный вывод")
+                && !endsWith(outputFile, "standard output")) {
+            outputFileDiv.attr("style", "font-weight: bold");
+        }
+
+        var titleDiv = $("div.header div.title");
+
+
+
+
+    });
+</script>        </div>
+    </div>
+
+    <br style="clear: both;"/>
+
+    <div id="footer">
+        <div><a href="https://codeforces.com/">Codeforces</a> (c) Copyright 2010-2019 Михаил Мирзаянов</div>
+        <div>Соревнования по программированию 2.0</div>
+
+    </div>
+
+</div>
+</div>
+    <script type="application/javascript">
+        if ('serviceWorker' in navigator && 'fetch' in window && 'caches' in window) {
+            var parser = new UAParser();
+            var browserName = parser.getBrowser().name;
+            var browserVersion = parser.getBrowser().version;
+
+            var supportedBrowser = false;
+            var supportedBrowsers = {
+                "Chrome": "76",
+                "Firefox": "68",
+                // "Edge": "18",
+                "Safari": "12.1",
+                "Opera": "63",
+                "Yandex": "19.9"
+            };
+
+            for (var name in supportedBrowsers) {
+                if (name === browserName && supportedBrowsers[name] <= browserVersion) {
+                    supportedBrowser = true;
+                }
+            }
+
+            if (supportedBrowser) {
+                navigator.serviceWorker.register('/service-worker-83560.js')
+                    .then(function (registration) {
+                        console.log('Service worker registered');
+                    })
+                    .catch(function (error) {
+                        console.log('Registration failed: ', error);
+                    });
+            } else {
+                navigator.serviceWorker.getRegistrations().then(function(registrations) {
+                    for (var i = 0; i < registrations.length; i++) {
+                        registrations[i].unregister();
+                    }
+                });
+            }
+        }
+    </script>
+</body>
+</html>

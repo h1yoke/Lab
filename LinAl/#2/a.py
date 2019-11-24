@@ -86,12 +86,12 @@ fout.write(str(state) + '\n')
 
 # terminating if we can't fire
 if state == 0:
-    print("goodbye\n")
+    print("приличное прощальное слово\n")
     exit(0)
 
 fout.write(str(cannon_angle) + '\n')
 fout.write(str(mast_angle) + '\n')
-fout.write("super_class\n")
+fout.write("приличное прощальное слово\n")
 
 fin.close()
 fout.close()

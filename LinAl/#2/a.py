@@ -86,12 +86,10 @@ fout.write(str(state) + '\n')
 
 # terminating if we can't fire
 if state == 0:
-    print("приличное прощальное слово\n")
-    exit(0)
-
-fout.write(str(cannon_angle) + '\n')
-fout.write(str(mast_angle) + '\n')
-fout.write("приличное прощальное слово\n")
-
+    fout.write("приличное прощальное слово\n")
+else:
+    fout.write(str(cannon_angle) + '\n')
+    fout.write(str(mast_angle) + '\n')
+    fout.write("приличное прощальное слово\n")
 fin.close()
 fout.close()

@@ -4,3 +4,4 @@ if [[ "$PWD" == "$HOME" ]]; then
   exit 0
 fi
 echo "Error: script was loaded from wrong directory"
+exit 1

@@ -1,2 +1,2 @@
 #!/bin/bash
-ps ux | sort -k 8 | head -n 1 | awk '{print $2}'
+ps aux | sort -rk 9 | head -n 2 | awk '{printf("%s %s\n", $2, $9)}'

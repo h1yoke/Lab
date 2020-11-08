@@ -1,2 +1,2 @@
 #!/bin/bash
-ps ux | grep "*/sbin/*" | awk '{print $2}' > pid.info
+ps aux | grep "*/sbin/*" | awk '{print $2}' > 2.info

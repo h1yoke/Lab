@@ -1,2 +1,2 @@
 #!/bin/bash
-ps aux | grep "*/sbin/*" | awk '{print $2}' > 2.info
+ps aux | awk '{print $2 " " $11}' | grep "/sbin/" | awk '{print $1}' > 2.info

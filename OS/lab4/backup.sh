@@ -57,7 +57,7 @@ else
     changes=$((changes + 1))
   fi
   if [[ -n $changed_files ]]; then
-    echo "new_files : "$cur_date" : "$last_backup" :"$changed_files >> $backup_dir/backup-report
+    echo "changed_files : "$cur_date" : "$last_backup" :"$changed_files >> $backup_dir/backup-report
     changes=$((changes + 1))
   fi
   if [[ $changes -ne 0 ]]; then

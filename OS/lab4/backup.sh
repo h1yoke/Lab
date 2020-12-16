@@ -11,8 +11,7 @@ last_backup=$(ls -d $backup_dir/* |
               sort -nr | head -n 1)
 last_backup_time=$(date -d $last_backup +"%s")
 
-if [[ -z $last_backup || $((cur_time - last_backup_time)) -ge 604800 ]]
-then
+if [[ -z $last_backup || $((cur_time - last_backup_time)) -ge 604800 ]]; then
   # create new dir
   new_backup=$backup_dir"Backup -"$cur_date
   mkdir $new_backup
